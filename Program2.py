@@ -50,8 +50,9 @@
 #Please write a script that: 
 # - Asks for the user's name and then prints it twice, on two consecutive lines.
 
-
-
+name = input ("Please tell me your name!\n\t ")
+print("Hi "+ name)
+print("How's your day "+ name)
 
 
 ## Problem 2 ##
@@ -60,6 +61,8 @@
 # - Prints it out twice on a single line so that there is an exclamation mark at the beginning of the line, 
 # - another between the two names and a third one at the end of the line.
 
+name = input ("What's your name?\n\t ")
+print("Hi " + name + " ! How's your day " + name + " ? I hope you have a good day " + name + " !")
 
 ## Problem 3 ##
 #Please write a script that: 
@@ -71,10 +74,22 @@
 #   - Street address: 91 Station Road
 #   - City and postal code: Folsom CA, 95630
 
+f_name = input("What is your first name: ")
+l_name = input("What is your last name: ")
+s_address = input("What is your street adress: ")
+c_adress = input("What is your city and postal code: ")
+
+print("First Name: " + f_name + "\n" + "Last Name: " + l_name + "\n"+"Street Adress: " + s_address + "\n"+"City and postal code: " + c_adress + "\n" )
+
 ## Problem 4 ##
 #Please write a script that: 
 # - Asks for 3 words 
 # - Puts the words together with dashes and prints that out
+
+w1 = input("Word 1: " )
+w2 = input("Word 2: ")
+w3 = input("Word 3: ")
+print(w1+"-"+w2+"-"+w3)
 
 
 ## Problem 5 ##
@@ -88,3 +103,8 @@
 #Mary is a valiant knight, born in the year 1572. 
 #One morning Mary woke up to an awful racket: a dragon was approaching the village. 
 #Only Mary could save the village's residents.
+
+name = input("Please type in a name: ")
+year = input("Please type in year: ")
+
+print(name+ "is a really short girl who was born in the year " + year + ".\n" + "One morning " + name + " woke up to find out that she had run out of Twix." + "\n" + "So she went out to her garden and just sat in her daisy garden :)" )
